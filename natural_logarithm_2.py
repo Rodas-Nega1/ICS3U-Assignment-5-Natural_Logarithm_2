@@ -2,19 +2,15 @@
 
 # Created by: Rodas Nega
 # Created on: Oct 2021
-# This program asks the user to pick a number of integers
-# and sums all of those integers
-
-
-import math
+# This program asks the user to input an integer for 
+# a sum of terms up to the user's integer then shows result
 
 
 def main():
-    # this function loops a sum of inputted positive integers
-    # and eliminates the negatives from the sum if the user enters
-    # a negative integer
+    # this function loops all terms to the user inputted integer and
+    # outputs a result for a comparison to the natural log of 2
 
-    # loop variable
+    # loop variables
     start_point = 1
     inverse_operation = -1
     sum = 0
